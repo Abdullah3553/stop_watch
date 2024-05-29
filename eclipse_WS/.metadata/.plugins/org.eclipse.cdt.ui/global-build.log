@@ -1,0 +1,1481 @@
+21:28:02 **** Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:3:
+../types.h:13: error: redefinition of typedef 'uint16'
+../types.h:10: error: previous declaration of 'uint16' was here
+../types.h:14: error: redefinition of typedef 'sint16'
+../types.h:11: error: previous declaration of 'sint16' was here
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:16: error: expected identifier before numeric constant
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:28:05 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:3:
+../types.h:13: error: redefinition of typedef 'uint16'
+../types.h:10: error: previous declaration of 'uint16' was here
+../types.h:14: error: redefinition of typedef 'sint16'
+../types.h:11: error: previous declaration of 'sint16' was here
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:28:13 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:3:
+../types.h:13: error: redefinition of typedef 'uint16'
+../types.h:10: error: previous declaration of 'uint16' was here
+../types.h:14: error: redefinition of typedef 'sint16'
+../types.h:11: error: previous declaration of 'sint16' was here
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:28:14 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:3:
+../types.h:13: error: redefinition of typedef 'uint16'
+../types.h:10: error: previous declaration of 'uint16' was here
+../types.h:14: error: redefinition of typedef 'sint16'
+../types.h:11: error: previous declaration of 'sint16' was here
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:51:50 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:3:
+../types.h:13: error: redefinition of typedef 'uint16'
+../types.h:10: error: previous declaration of 'uint16' was here
+../types.h:14: error: redefinition of typedef 'sint16'
+../types.h:11: error: previous declaration of 'sint16' was here
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:52:14 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../main.c:7:
+../types.h:13: error: redefinition of typedef 'uint16'
+../types.h:10: error: previous declaration of 'uint16' was here
+../types.h:14: error: redefinition of typedef 'sint16'
+../types.h:11: error: previous declaration of 'sint16' was here
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:54:51 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5108 bytes (15.6% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:55:24 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5114 bytes (15.6% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:26:51 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'INT0_config':
+../main.c:144: error: called object '1' is not a function
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:27:04 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5764 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:07:18 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5954 bytes (18.2% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:12:44 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6086 bytes (18.6% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:14:14 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6090 bytes (18.6% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:15:06 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6090 bytes (18.6% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:25:57 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6090 bytes (18.6% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:26:05 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6090 bytes (18.6% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:26:32 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+../clock.c: In function 'init_time':
+../clock.c:12: error: 'g_clock' undeclared (first use in this function)
+../clock.c:12: error: (Each undeclared identifier is reported only once
+../clock.c:12: error: for each function it appears in.)
+../clock.c: In function 'get_digit':
+../clock.c:21: error: 'RIGHT_DIGIT' undeclared (first use in this function)
+../clock.c:26: error: 'LEFT_DIGIT' undeclared (first use in this function)
+../clock.c:33: error: 'DIGIT_ERROR' undeclared (first use in this function)
+../clock.c:34: warning: control reaches end of non-void function
+../clock.c: In function 'display_clock':
+../clock.c:41: error: 'PORTA' undeclared (first use in this function)
+../clock.c:43: error: 'PORTC' undeclared (first use in this function)
+../clock.c:44: error: 'g_clock' undeclared (first use in this function)
+../clock.c:44: error: 'LEFT_DIGIT' undeclared (first use in this function)
+../clock.c:45: warning: implicit declaration of function '_delay_ms'
+../clock.c:51: error: 'RIGHT_DIGIT' undeclared (first use in this function)
+../clock.c: In function 'advance_hour':
+../clock.c:88: error: 'g_clock' undeclared (first use in this function)
+../clock.c: In function 'advance_minute':
+../clock.c:103: error: 'g_clock' undeclared (first use in this function)
+../clock.c: In function 'advance_second':
+../clock.c:118: error: 'g_clock' undeclared (first use in this function)
+make: *** [clock.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:26:44 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+../clock.c: In function 'init_time':
+../clock.c:13: error: 'g_clock' undeclared (first use in this function)
+../clock.c:13: error: (Each undeclared identifier is reported only once
+../clock.c:13: error: for each function it appears in.)
+../clock.c: In function 'display_clock':
+../clock.c:42: error: 'PORTA' undeclared (first use in this function)
+../clock.c:44: error: 'PORTC' undeclared (first use in this function)
+../clock.c:45: error: 'g_clock' undeclared (first use in this function)
+../clock.c:46: warning: implicit declaration of function '_delay_ms'
+../clock.c: In function 'advance_hour':
+../clock.c:89: error: 'g_clock' undeclared (first use in this function)
+../clock.c: In function 'advance_minute':
+../clock.c:104: error: 'g_clock' undeclared (first use in this function)
+../clock.c: In function 'advance_second':
+../clock.c:119: error: 'g_clock' undeclared (first use in this function)
+make: *** [clock.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:28:09 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+../clock.c: In function 'display_clock':
+../clock.c:42: error: 'PORTA' undeclared (first use in this function)
+../clock.c:42: error: (Each undeclared identifier is reported only once
+../clock.c:42: error: for each function it appears in.)
+../clock.c:44: error: 'PORTC' undeclared (first use in this function)
+../clock.c:46: warning: implicit declaration of function '_delay_ms'
+../clock.c: In function 'advance_minute':
+../clock.c:107: error: too few arguments to function 'advance_hour'
+../clock.c: In function 'advance_second':
+../clock.c:122: error: too few arguments to function 'advance_minute'
+make: *** [clock.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:28:36 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+../clock.c: In function 'display_clock':
+../clock.c:42: error: 'PORTA' undeclared (first use in this function)
+../clock.c:42: error: (Each undeclared identifier is reported only once
+../clock.c:42: error: for each function it appears in.)
+../clock.c:44: error: 'PORTC' undeclared (first use in this function)
+../clock.c:46: warning: implicit declaration of function '_delay_ms'
+make: *** [clock.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:29:00 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../clock.c: In function 'display_clock':
+../clock.c:42: error: 'PORTA' undeclared (first use in this function)
+../clock.c:42: error: (Each undeclared identifier is reported only once
+../clock.c:42: error: for each function it appears in.)
+../clock.c:44: error: 'PORTC' undeclared (first use in this function)
+make: *** [clock.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:29:11 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./main.o   
+./main.o: In function `main':
+../main.c:255: multiple definition of `init_time'
+./clock.o:../clock.c:13: first defined here
+./main.o: In function `main':
+../main.c:255: multiple definition of `get_digit'
+./clock.o:../clock.c:13: first defined here
+./main.o: In function `main':
+../main.c:255: multiple definition of `display_clock'
+./clock.o:../clock.c:13: first defined here
+./main.o: In function `main':
+../main.c:255: multiple definition of `advance_hour'
+./clock.o:../clock.c:13: first defined here
+./main.o: In function `main':
+../main.c:255: multiple definition of `advance_minute'
+./clock.o:../clock.c:13: first defined here
+./main.o: In function `main':
+../main.c:255: multiple definition of `advance_second'
+./clock.o:../clock.c:13: first defined here
+make: *** [mini_project_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:29:39 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_7':
+../main.c:112: warning: implicit declaration of function 'advance_second'
+../main.c: In function '__vector_1':
+../main.c:119: warning: implicit declaration of function 'init_time'
+../main.c: In function 'main':
+../main.c:152: warning: implicit declaration of function 'display_clock'
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6238 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:30:36 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_7':
+../main.c:112: warning: implicit declaration of function 'advance_second'
+../main.c: In function '__vector_1':
+../main.c:119: warning: implicit declaration of function 'init_time'
+../main.c: In function 'main':
+../main.c:152: warning: implicit declaration of function 'display_clock'
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:32:26 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:6:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:34:27 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./main.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:33:03 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+../interrupts.c: In function 'INT0_config':
+../interrupts.c:6: error: 'DDRD' undeclared (first use in this function)
+../interrupts.c:6: error: (Each undeclared identifier is reported only once
+../interrupts.c:6: error: for each function it appears in.)
+../interrupts.c:6: error: 'PD2' undeclared (first use in this function)
+../interrupts.c:7: error: 'PORTD' undeclared (first use in this function)
+../interrupts.c:9: error: 'MCUCR' undeclared (first use in this function)
+../interrupts.c:9: error: 'ISC00' undeclared (first use in this function)
+../interrupts.c:10: error: 'ISC01' undeclared (first use in this function)
+../interrupts.c:11: error: 'GICR' undeclared (first use in this function)
+../interrupts.c:11: error: 'INT0' undeclared (first use in this function)
+../interrupts.c:13: error: 'SREG' undeclared (first use in this function)
+../interrupts.c:13: error: 'SREG_I' undeclared (first use in this function)
+../interrupts.c: In function 'INT1_config':
+../interrupts.c:19: error: 'DDRD' undeclared (first use in this function)
+../interrupts.c:19: error: 'PD3' undeclared (first use in this function)
+../interrupts.c:22: error: 'MCUCR' undeclared (first use in this function)
+../interrupts.c:22: error: 'ISC10' undeclared (first use in this function)
+../interrupts.c:23: error: 'ISC11' undeclared (first use in this function)
+../interrupts.c:24: error: 'GICR' undeclared (first use in this function)
+../interrupts.c:24: error: 'INT1' undeclared (first use in this function)
+../interrupts.c:26: error: 'SREG' undeclared (first use in this function)
+../interrupts.c:26: error: 'SREG_I' undeclared (first use in this function)
+../interrupts.c: In function 'INT2_config':
+../interrupts.c:32: error: 'DDRB' undeclared (first use in this function)
+../interrupts.c:32: error: 'PB2' undeclared (first use in this function)
+../interrupts.c:33: error: 'PORTB' undeclared (first use in this function)
+../interrupts.c:35: error: 'MCUCSR' undeclared (first use in this function)
+../interrupts.c:35: error: 'ISC2' undeclared (first use in this function)
+../interrupts.c:36: error: 'GICR' undeclared (first use in this function)
+../interrupts.c:36: error: 'INT2' undeclared (first use in this function)
+../interrupts.c:38: error: 'SREG' undeclared (first use in this function)
+../interrupts.c:38: error: 'SREG_I' undeclared (first use in this function)
+../interrupts.c: At top level:
+../interrupts.c:44: warning: return type defaults to 'int'
+../interrupts.c: In function 'ISR':
+../interrupts.c:44: warning: type of 'INT0_vect' defaults to 'int'
+../interrupts.c:46: warning: implicit declaration of function 'init_time'
+../interrupts.c:46: error: 'g_clock' undeclared (first use in this function)
+../interrupts.c:48: warning: implicit declaration of function 'TIMER1_reset'
+../interrupts.c:49: warning: control reaches end of non-void function
+../interrupts.c: At top level:
+../interrupts.c:52: warning: return type defaults to 'int'
+../interrupts.c:51: error: redefinition of 'ISR'
+../interrupts.c:44: error: previous definition of 'ISR' was here
+../interrupts.c: In function 'ISR':
+../interrupts.c:52: warning: type of 'INT1_vect' defaults to 'int'
+../interrupts.c:53: warning: implicit declaration of function 'TIMER1_pause'
+../interrupts.c:54: warning: control reaches end of non-void function
+../interrupts.c: At top level:
+../interrupts.c:57: warning: return type defaults to 'int'
+../interrupts.c:56: error: redefinition of 'ISR'
+../interrupts.c:44: error: previous definition of 'ISR' was here
+../interrupts.c: In function 'ISR':
+../interrupts.c:57: warning: type of 'INT2_vect' defaults to 'int'
+../interrupts.c:58: warning: implicit declaration of function 'TIMER1_resume'
+../interrupts.c:59: warning: control reaches end of non-void function
+make: *** [interrupts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:37:46 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+../interrupts.c: In function '__vector_1':
+../interrupts.c:49: warning: implicit declaration of function 'init_time'
+../interrupts.c:49: error: 'g_clock' undeclared (first use in this function)
+../interrupts.c:49: error: (Each undeclared identifier is reported only once
+../interrupts.c:49: error: for each function it appears in.)
+../interrupts.c:51: warning: implicit declaration of function 'TIMER1_reset'
+../interrupts.c: In function '__vector_2':
+../interrupts.c:56: warning: implicit declaration of function 'TIMER1_pause'
+../interrupts.c: In function '__vector_3':
+../interrupts.c:61: warning: implicit declaration of function 'TIMER1_resume'
+make: *** [interrupts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:38:01 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+../interrupts.c: In function '__vector_1':
+../interrupts.c:49: warning: implicit declaration of function 'init_time'
+../interrupts.c:49: error: 'g_clock' undeclared (first use in this function)
+../interrupts.c:49: error: (Each undeclared identifier is reported only once
+../interrupts.c:49: error: for each function it appears in.)
+make: *** [interrupts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:38:59 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+In file included from ../interrupts.c:4:
+../clock.h:16: error: expected specifier-qualifier-list before 'uint8'
+../clock.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'init_time'
+../clock.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'get_digit'
+../clock.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'display_clock'
+../clock.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_hour'
+../clock.h:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_minute'
+../clock.h:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_second'
+../interrupts.c: In function '__vector_1':
+../interrupts.c:51: warning: implicit declaration of function 'init_time'
+make: *** [interrupts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:39:32 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+In file included from ../interrupts.c:4:
+../clock.h:16: error: expected specifier-qualifier-list before 'uint8'
+../clock.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'init_time'
+../clock.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'get_digit'
+../clock.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'display_clock'
+../clock.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_hour'
+../clock.h:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_minute'
+../clock.h:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_second'
+../interrupts.c: In function '__vector_1':
+../interrupts.c:51: warning: implicit declaration of function 'init_time'
+make: *** [interrupts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:39:54 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+In file included from ../interrupts.c:4:
+../clock.h:16: error: expected specifier-qualifier-list before 'uint8'
+../clock.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'init_time'
+../clock.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'get_digit'
+../clock.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'display_clock'
+../clock.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_hour'
+../clock.h:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_minute'
+../clock.h:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_second'
+../interrupts.c: In function '__vector_1':
+../interrupts.c:51: warning: implicit declaration of function 'init_time'
+make: *** [interrupts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:40:29 **** Clean-only build of configuration Debug for project mini_project_2 ****
+make clean 
+rm -rf  ./clock.o ./interrupts.o ./main.o ./timer.o  sizedummy  mini_project_2.lss  ./clock.d ./interrupts.d ./main.d ./timer.d  mini_project_2.elf
+ 
+13:40:29 **** Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+In file included from ../interrupts.c:4:
+../clock.h:16: error: expected specifier-qualifier-list before 'uint8'
+../clock.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'init_time'
+../clock.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'get_digit'
+../clock.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'display_clock'
+../clock.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_hour'
+../clock.h:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_minute'
+../clock.h:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_second'
+../interrupts.c: In function '__vector_1':
+../interrupts.c:51: warning: implicit declaration of function 'init_time'
+make: *** [interrupts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:40:33 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+In file included from ../interrupts.c:4:
+../clock.h:16: error: expected specifier-qualifier-list before 'uint8'
+../clock.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'init_time'
+../clock.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'get_digit'
+../clock.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'display_clock'
+../clock.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_hour'
+../clock.h:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_minute'
+../clock.h:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_second'
+../interrupts.c: In function '__vector_1':
+../interrupts.c:51: warning: implicit declaration of function 'init_time'
+make: *** [interrupts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:41:19 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+In file included from ../interrupts.c:4:
+../clock.h:16: error: expected specifier-qualifier-list before 'uint8'
+../clock.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'init_time'
+../clock.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'get_digit'
+../clock.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'display_clock'
+../clock.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_hour'
+../clock.h:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_minute'
+../clock.h:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_second'
+../interrupts.c: In function '__vector_1':
+../interrupts.c:51: warning: implicit declaration of function 'init_time'
+make: *** [interrupts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:41:55 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+In file included from ../interrupts.c:4:
+../clock.h:17: error: expected specifier-qualifier-list before 'uint8'
+../clock.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'init_time'
+../clock.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'get_digit'
+../clock.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'display_clock'
+../clock.h:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_hour'
+../clock.h:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_minute'
+../clock.h:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_second'
+../interrupts.c: In function '__vector_1':
+../interrupts.c:51: warning: implicit declaration of function 'init_time'
+make: *** [interrupts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:43:37 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+Finished building: ../interrupts.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:21: warning: implicit declaration of function 'INT0_config'
+../main.c:22: warning: implicit declaration of function 'INT1_config'
+../main.c:23: warning: implicit declaration of function 'INT2_config'
+../main.c:25: warning: implicit declaration of function 'TIMER1_ctc_config'
+Finished building: ../main.c
+ 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+../timer.c:4: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TIMER1_t'
+../timer.c: In function '__vector_7':
+../timer.c:59: error: 'TIMER1_t' undeclared (first use in this function)
+../timer.c:59: error: (Each undeclared identifier is reported only once
+../timer.c:59: error: for each function it appears in.)
+../timer.c:64: warning: implicit declaration of function 'advance_second'
+../timer.c:64: error: 'g_clock' undeclared (first use in this function)
+make: *** [timer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:45:40 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+Finished building: ../interrupts.c
+ 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+../timer.c:4: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TIMER1_t'
+../timer.c: In function '__vector_7':
+../timer.c:59: error: 'TIMER1_t' undeclared (first use in this function)
+../timer.c:59: error: (Each undeclared identifier is reported only once
+../timer.c:59: error: for each function it appears in.)
+../timer.c:64: warning: implicit declaration of function 'advance_second'
+../timer.c:64: error: 'g_clock' undeclared (first use in this function)
+make: *** [timer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:46:11 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+../timer.c:4: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TIMER1_t'
+../timer.c: In function '__vector_7':
+../timer.c:59: error: 'TIMER1_t' undeclared (first use in this function)
+../timer.c:59: error: (Each undeclared identifier is reported only once
+../timer.c:59: error: for each function it appears in.)
+../timer.c:64: warning: implicit declaration of function 'advance_second'
+../timer.c:64: error: 'g_clock' undeclared (first use in this function)
+make: *** [timer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:47:05 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+../timer.c: In function '__vector_7':
+../timer.c:64: warning: implicit declaration of function 'advance_second'
+../timer.c:64: error: 'g_clock' undeclared (first use in this function)
+../timer.c:64: error: (Each undeclared identifier is reported only once
+../timer.c:64: error: for each function it appears in.)
+make: *** [timer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:47:42 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+Finished building: ../timer.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./interrupts.o ./main.o ./timer.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:47:51 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+../timer.c:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'g_clock'
+../timer.c: In function '__vector_7':
+../timer.c:65: warning: implicit declaration of function 'advance_second'
+../timer.c:65: error: 'g_clock' undeclared (first use in this function)
+../timer.c:65: error: (Each undeclared identifier is reported only once
+../timer.c:65: error: for each function it appears in.)
+make: *** [timer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:47:58 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+Finished building: ../timer.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./interrupts.o ./main.o ./timer.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:48:42 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../main.c:6:
+../clock.h:17: error: expected specifier-qualifier-list before 'uint8'
+../clock.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'init_time'
+../clock.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'get_digit'
+../clock.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'display_clock'
+../clock.h:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_hour'
+../clock.h:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_minute'
+../clock.h:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'advance_second'
+../main.c: In function 'main':
+../main.c:14: warning: implicit declaration of function 'init_time'
+../main.c:30: warning: implicit declaration of function 'display_clock'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:48:49 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./interrupts.o ./main.o ./timer.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:53:55 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../clock.c:16: error: static declaration of 'get_digit' follows non-static declaration
+../clock.h:21: error: previous declaration of 'get_digit' was here
+../clock.c:83: error: static declaration of 'advance_hour' follows non-static declaration
+../clock.h:23: error: previous declaration of 'advance_hour' was here
+../clock.c:98: error: static declaration of 'advance_minute' follows non-static declaration
+../clock.h:24: error: previous declaration of 'advance_minute' was here
+make: *** [clock.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:54:11 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../interrupts.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../main.c
+ 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../timer.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./interrupts.o ./main.o ./timer.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:54:27 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:57:12 **** Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../interrupts.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../main.c
+ 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../timer.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./interrupts.o ./main.o ./timer.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:57:23 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:57:24 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:57:24 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:57:38 **** Clean-only build of configuration Debug for project mini_project_2 ****
+make clean 
+rm -rf  ./clock.o ./interrupts.o ./main.o ./timer.o  sizedummy  mini_project_2.lss  ./clock.d ./interrupts.d ./main.d ./timer.d  mini_project_2.elf
+ 
+11:57:38 **** Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../interrupts.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../main.c
+ 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../timer.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./interrupts.o ./main.o ./timer.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:58:11 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:05:02 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Building file: ../clock.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"clock.d" -MT"clock.o" -c -o "clock.o" "../clock.c"
+In file included from ../clock.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../clock.c
+ 
+Building file: ../interrupts.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"interrupts.d" -MT"interrupts.o" -c -o "interrupts.o" "../interrupts.c"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../interrupts.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../main.c
+ 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+../clock.h:21: warning: 'get_digit' declared 'static' but never defined
+../clock.h:23: warning: 'advance_hour' declared 'static' but never defined
+../clock.h:24: warning: 'advance_minute' declared 'static' but never defined
+Finished building: ../timer.c
+ 
+Building target: mini_project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project_2.map -mmcu=atmega32 -o "mini_project_2.elf"  ./clock.o ./interrupts.o ./main.o ./timer.o   
+Finished building target: mini_project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project_2.elf  >"mini_project_2.lss"
+Finished building: mini_project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:05:03 **** Incremental Build of configuration Debug for project mini_project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 mini_project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6254 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

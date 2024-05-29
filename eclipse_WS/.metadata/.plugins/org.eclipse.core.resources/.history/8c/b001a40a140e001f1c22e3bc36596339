@@ -1,0 +1,248 @@
+#define F_CPU 1000000UL
+
+
+#include<avr/io.h>
+#include<avr/interrupt.h>
+#include<util/delay.h>
+#include"types.h"
+
+#define RIGHT_DIGIT 0
+#define LEFT_DIGIT  1
+
+#define DIGIT_ERROR -1
+
+#define RESET PD2
+#define RESUME PB2
+#define PAUSE PD3
+typedef struct {
+	uint8 hours, minutes, seconds;
+}time;
+time g_clock; /*Global clock*/
+
+uint8 TIMER1_t = 0;
+
+uint8 init_time(void)
+{
+	g_clock.hours = 0;
+	g_clock.minutes = 0;
+	g_clock.seconds = 0;
+	return SUCCESS; /*Could be ignored*/
+}
+
+sint8 get_digit(uint8 number,uint8 digit )
+{
+
+	if(digit == RIGHT_DIGIT)
+	{
+        number = number % 10; 	/*Select the Least significant digit only*/
+		return (sint8)number;
+	}
+	else if(digit == LEFT_DIGIT)
+	{
+		number = number % 100; 	/*To Select the last 2 digits only */
+		number = number / 10;	/*To remove the ones digit*/
+		return (sint8)number;
+	}
+
+	return DIGIT_ERROR;	/*digit was not RIGHT_DIGIT or LEFT_DIGIT*/
+}
+
+uint8 display_clock(void)
+{
+	/*Display the digits on the 6 7-segments */
+
+	/*enable the tens digit in the hours*/
+	PORTA = ( PORTA & 0xc0 ) | ( 0b00000001 );
+	/*Display the tens digit on the enabled 7-segment*/
+	PORTC = ( PORTC & 0xf0 )
+			| ( 0x0f & ( (uint8) get_digit(g_clock.hours, LEFT_DIGIT) ) );
+	_delay_ms(2);
+
+	/*enable the ones digit in the hours*/
+	PORTA = ( PORTA & 0xc0 ) | ( 0b00000010 );
+	/*Display the tens digit on the enabled 7-segment*/
+	PORTC = ( PORTC & 0xf0 )
+			| ( 0x0f & ( (uint8) get_digit(g_clock.hours, RIGHT_DIGIT) ) );
+	_delay_ms(2);
+
+	/*enable the tens digit in the minutes*/
+	PORTA = ( PORTA & 0xc0 ) | ( 0b00000100 );
+	/*Display the tens digit on the enabled 7-segment*/
+	PORTC = ( PORTC & 0xf0 ) |
+			( 0x0f & ( (uint8) get_digit(g_clock.minutes, LEFT_DIGIT) ) );
+	_delay_ms(2);
+
+	/*enable the ones digit in the minutes*/
+	PORTA = ( PORTA & 0xc0 ) | ( 0b00001000 );
+	/*Display the tens digit on the enabled 7-segment*/
+	PORTC = ( PORTC & 0xf0 )
+			| ( 0x0f & ( (uint8) get_digit(g_clock.minutes, RIGHT_DIGIT) ) );
+	_delay_ms(2);
+
+	/*enable the tens digit in the seconds*/
+	PORTA = ( PORTA & 0xc0 ) | ( 0b00010000 );
+	/*Display the tens digit on the enabled 7-segment*/
+	PORTC = ( PORTC & 0xf0 )
+			| ( 0x0f & ( (uint8) get_digit(g_clock.seconds, LEFT_DIGIT) ) );
+	_delay_ms(2);
+
+	/*enable the ones digit in the seconds*/
+	PORTA = ( PORTA & 0xc0 ) | ( 0b00100000 );
+	/*Display the tens digit on the enabled 7-segment*/
+	PORTC = ( PORTC & 0xf0 )
+			| ( 0x0f & ( (uint8) get_digit(g_clock.seconds, RIGHT_DIGIT) ) );
+	_delay_ms(2);
+
+	return SUCCESS;
+}
+
+uint8 advance_hour(void)
+{
+	if(g_clock.hours == 99)
+	{
+		g_clock.hours = 0;
+	}
+	else
+	{
+		g_clock.hours++;
+	}
+	return SUCCESS;
+}
+
+
+uint8 advance_minute(void)
+{
+	if(g_clock.minutes == 59)
+	{
+		g_clock.minutes = 0;
+		advance_hour();
+	}
+	else
+	{
+		g_clock.minutes++;
+	}
+	return SUCCESS;
+}
+
+uint8 advance_second(void)
+{
+	if(g_clock.seconds == 59)
+	{
+		g_clock.seconds = 0;
+		advance_minute();
+	}
+	else
+	{
+		g_clock.seconds++;
+	}
+	return SUCCESS;
+}
+void INT0_config(void)
+{
+	DDRD &= ~(1 << RESET);	/*RESET button pin*/
+	PORTD |= (1 << RESET);	/*internal pull-up resistor for RESET button*/
+
+	MCUCR &= ~(1 << ISC00);	/*INT0 on falling edge */
+	MCUCR |= (1 << 	ISC01); /*INT0 on falling edge */
+	GICR |= (1 << INT0); 	/*Enable INT0*/
+}
+
+void INT1_config(void)
+{
+	DDRD &= ~(1 << PAUSE);	/*PAUSE button pin*/
+							/*External pull-down resistor for PAUSE button*/
+
+	MCUCR |= (1 << 	ISC10) 	/*INT1 on raising edge */
+			| (1 << ISC11); /*INT1 on raising edge */
+	GICR |= (1 << INT1); 	/*Enable INT1*/
+}
+
+void INT2_config(void)
+{
+	DDRB &= ~(1 << RESUME) ;/*resume button*/
+	PORTB |= (1 << RESUME); /*internal pull-up resistor for RESUME button*/
+
+	MCUCSR &= ~(1 <<ISC2); 	/*INT2 on falling edge */
+	GICR |= (1 << INT2); 	/*Enable INT2*/
+}
+
+ISR(INT0_vect)
+{
+	/*Should reset the clock*/
+	init_time(); /*Reset the 7-segments*/
+	/*TODO reset the timer*/
+}
+
+ISR(INT1_vect)
+{
+	advance_second();
+	/*TODO pause the timer*/
+}
+
+ISR(INT2_vect)
+{
+	advance_minute();
+	/*TODO resume the timer */
+}
+
+void TIMER1_ctc_square_wave_config(unsigned char comp)
+{
+	TCNT1 = 0; /*intial value */
+	OCR1A = comp; /*compare value */
+	TIMSK |= (1 << OCIE1A); /*interrupt enable bit for compare with OCR1A */
+	SREG |= (1 << SREG_I); /*i-b0it*/
+	/*
+	 * 8Mhz F_CPU
+	 * prescaler -> 8
+	 * WGM10 and WGM11 = 0 -> ctc mode
+	 * FOC1A =1, FOC1B= 0 -> force ctc mode with OCR1A
+	 *
+	 * */
+	TCCR1A = (1 << FOC1A);
+	/*
+	 * CS11 = 1 -> prescaler = 8
+	 * WGM12 = 1 -> ctc mode
+	 * WGM13 = 0 -> ctc mode
+	 * */
+	TCCR1B = ( 1 << CS11 ) | ( 1 << WGM12);
+}
+
+ISR(TIMER1_COMPA_vect)
+{
+	TIMER1_t++;
+	//PORTC ^= (1 << PC0);
+	if(TIMER1_t == 4)
+	{
+		TIMER1_t = 0;
+		PORTC |= (1 << PC0);
+	}
+	else
+	{
+		PORTC &= ~(1 << PC0);
+	}
+}
+
+int main(void)
+{
+	init_time(); 	/*Set the clock to zero */
+
+	DDRA |= 0x3f; 	/*Enable Pins for all 6 7-segments */
+	PORTA &= 0xc0;	/*All enable Pins are OFF*/
+
+	DDRC |= 0x0f; 	/*4 pins for 7-segment decoder digit */
+	PORTC &= 0xf0; 	/*Set the decoder digit to 0*/
+
+	INT0_config();
+	INT1_config();
+	INT2_config();
+
+	SREG |= (1 << SREG_I );/*Enable i-bit for global interrupt enable */
+
+
+	while(1)
+	{
+		display_clock();
+	}/*While(1) end*/
+
+
+}

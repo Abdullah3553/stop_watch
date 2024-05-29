@@ -1,0 +1,156 @@
+#define F_CPU 1000000UL
+
+
+#include<avr/io.h>
+#include<avr/interrupt.h>
+#include<util/delay.h>
+#include"types.h"
+#include"clock.h"
+#define RESET PD2
+#define RESUME PB2
+#define PAUSE PD3
+
+time g_clock; /*Global clock*/
+
+uint8 TIMER1_t = 0;
+void INT0_config(void)
+{
+	DDRD &= ~(1 << RESET);	/*RESET button pin*/
+	PORTD |= (1 << RESET);	/*internal pull-up resistor for RESET button*/
+
+	MCUCR &= ~(1 << ISC00);	/*INT0 on falling edge */
+	MCUCR |= (1 << 	ISC01); /*INT0 on falling edge */
+	GICR |= (1 << INT0); 	/*Enable INT0*/
+
+	SREG |= (1 << SREG_I );/*Enable i-bit for global interrupt enable */
+
+}
+
+void INT1_config(void)
+{
+	DDRD &= ~(1 << PAUSE);	/*PAUSE button pin*/
+							/*External pull-down resistor for PAUSE button*/
+
+	MCUCR |= (1 << 	ISC10) 	/*INT1 on raising edge */
+			| (1 << ISC11); /*INT1 on raising edge */
+	GICR |= (1 << INT1); 	/*Enable INT1*/
+
+	SREG |= (1 << SREG_I );/*Enable i-bit for global interrupt enable */
+
+}
+
+void INT2_config(void)
+{
+	DDRB &= ~(1 << RESUME) ;/*resume button*/
+	PORTB |= (1 << RESUME); /*internal pull-up resistor for RESUME button*/
+
+	MCUCSR &= ~(1 <<ISC2); 	/*INT2 on falling edge */
+	GICR |= (1 << INT2); 	/*Enable INT2*/
+
+	SREG |= (1 << SREG_I );/*Enable i-bit for global interrupt enable */
+
+}
+
+void TIMER1_ctc_config(void)
+{
+	TCNT1 = 0; /*intial value */
+	OCR1A = 977; /*compare value for 1 second */
+	TIMSK |= (1 << OCIE1A); /*interrupt enable bit for compare with OCR1A */
+	SREG |= (1 << SREG_I );/*Enable i-bit for global interrupt enable */
+
+	/*
+	 * 1Mhz F_CPU
+	 * prescaler -> 1024
+	 * WGM10 and WGM11 = 0 -> ctc mode
+	 * FOC1A =1, FOC1B= 0 -> force ctc mode with OCR1A
+	 *
+	 * */
+	TCCR1A = (1 << FOC1A);
+	/*
+	 * CS11 = 1 -> prescaler = 1024
+	 * CS10 = 1 -> prescaler = 1024
+	 * WGM12 = 1 -> ctc mode
+	 * WGM13 = 0 -> ctc mode
+	 * */
+	TCCR1B = ( 1 << CS12 ) | (1 << CS10) | ( 1 << WGM12);
+	/*
+	 * with this setup, each increment will be 1.024 ms.
+	 *  so to get 1 second, you need to count to 977
+	 * */
+}
+
+void TIMER1_resume(void)
+{
+	TIMSK |= (1 << OCIE1A); /*TIMER1 Interrupt enable bit*/
+
+	SREG |= (1 << SREG_I );/*Enable i-bit for global interrupt enable */
+
+	/*This set the clock to the timer so the timer will start*/
+	TCCR1B = ( 1 << CS12 ) | (1 << CS10) | ( 1 << WGM12);
+}
+
+void TIMER1_pause(void)
+{
+	TIMSK &= ~(1 << OCIE1A); /*TIMER1 Interrupt enable bit*/
+	TCCR1B = 0; /*No clock input*/
+}
+
+void TIMER1_reset(void)
+{
+	/*We can do more stuff here like changing the compare value for the timer*/
+	TCNT1 = 0; /*reset value */
+}
+
+
+ISR(TIMER1_COMPA_vect)
+{
+	TIMER1_t++;
+	if(TIMER1_t == 1)
+	{
+		/*A second passed*/
+		TIMER1_t = 0;
+		advance_second(&g_clock);
+	}
+}
+
+ISR(INT0_vect)
+{
+	/*Should reset the clock*/
+	init_time(&g_clock); /*Reset the 7-segments*/
+
+	TIMER1_reset();
+}
+
+ISR(INT1_vect)
+{
+	TIMER1_pause();
+}
+
+ISR(INT2_vect)
+{
+	TIMER1_resume();
+}
+
+int main(void)
+{
+	init_time(&g_clock); 	/*Set the clock to zero */
+
+	DDRA |= 0x3f; 	/*Enable Pins for all 6 7-segments */
+	PORTA &= 0xc0;	/*All enable Pins are OFF*/
+
+	DDRC |= 0x0f; 	/*4 pins for 7-segment decoder digit */
+	PORTC &= 0xf0; 	/*Set the decoder digit to 0*/
+
+	INT0_config();
+	INT1_config();
+	INT2_config();
+
+	TIMER1_ctc_config(); /*Compare mode with TIMER1 that counts seconds*/
+
+	while(1)
+	{
+		display_clock(&g_clock);
+	}/*While(1) end*/
+
+
+}
